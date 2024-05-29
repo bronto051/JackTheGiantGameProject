@@ -13,6 +13,7 @@ public class MainMenuController : MonoBehaviour
 
     public void StartGame()
     {
+        GameManager.instance.gameStartedFromMainMenu = true;
         SceneManager.LoadScene("Gameplay");
     }
 

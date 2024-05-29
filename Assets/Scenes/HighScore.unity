@@ -399,6 +399,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bb896a64d9087e489f0c4c4c5db06c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreText: {fileID: 1356069484}
+  coinText: {fileID: 1778992619}
 --- !u!4 &923691009
 Transform:
   m_ObjectHideFlags: 0
@@ -778,7 +780,7 @@ GameObject:
   - component: {fileID: 1778992620}
   - component: {fileID: 1778992619}
   m_Layer: 5
-  m_Name: Coin Score
+  m_Name: Coin Score Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
